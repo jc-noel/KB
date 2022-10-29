@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "b2e0a953152d1760",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8ab09abb94506c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "026016d4b9ab564e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frameworks/ASP.NET/Routing/Generating URLs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d68293446876405b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6229c963dc8b686c",
+        "type": "tabs",
+        "dimension": 71.56488549618321,
+        "children": [
+          {
+            "id": "46f96f618484018a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a2569b85de5b26dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "46f37a2f24490016",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "0ebcaa02e81796bd",
+        "type": "tabs",
+        "dimension": 28.435114503816795,
+        "children": [
+          {
+            "id": "fd381f3d9f58a328",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "889d477ca5dbb92d",
+    "type": "split",
+    "children": [
+      {
+        "id": "f86a214c1e4af00d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b4147edb8e19898",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Frameworks/ASP.NET/Routing/Generating URLs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "004797a1f4db8ab2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Frameworks/ASP.NET/Routing/Generating URLs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3dd72af73ede7088",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "19e9f482da30f2e0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Frameworks/ASP.NET/Routing/Generating URLs.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "026016d4b9ab564e",
+  "lastOpenFiles": [
+    "Frameworks/ASP.NET/Razor Pages/PageModel as a Controller.md",
+    "Computer Network.md",
+    "Computer Science/Hostname.md",
+    "Frameworks/ASP.NET/Routing/Generating URLs.md",
+    "Frameworks/ASP.NET/Razor Pages/PageModel as a View Model.md",
+    "Frameworks/ASP.NET/Razor Pages/Layout Pages.md",
+    "Frameworks/ASP.NET/Routing/Routing Templates.md",
+    "Frameworks/ASP.NET/Routing/Routing Parameters.md",
+    "Frameworks/ASP.NET/Routing/Routing Constraints.md",
+    "Frameworks/ASP.NET/Routing/Routing Basics.md"
+  ]
+}

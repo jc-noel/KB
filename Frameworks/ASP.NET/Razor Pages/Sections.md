@@ -62,4 +62,4 @@ else
 }
 ```
 
-Due to `IgnoreSection` returning void, we don't prefix with `@` and msut terminate with a `;`.
+Due to `IgnoreSection` returning void, we don't prefix with `@` and must terminate with a `;`.

@@ -59,3 +59,48 @@ public class CityModel : PageModel
 <h3>@Model.CityName Details</h3>
 ```
 
+The above example showed how to handle one parameter, below we demonstrate multiple parameters, (note the segments are separated by a `/`):
+
+```csharp
+[City.cshtml.cs]
+public class CityModel : PageModel
+{
+	public string CityName { get; set; }
+	public int? Rating { get; set; }
+	public void OnGet(string cityName, int? rating)
+	{
+		CityName = cityName;
+		Rating = rating;
+	}
+}
+
+[City.cshtml]
+@page "{cityName}/{rating?}"
+@model CityBreaks.Pages.CityModel
+@{
+}
+<h3>@Model.CityName Details</h3>
+<p>Minimum Rating: @Model.Rating.GetValueOrDefault()</p>
+```
+
+When taking note that the parameter segments are separated by a `/`, multiple parameters are also allowed in the same segment. To achieve this, you must separate the parameters with literal text that isn't featured in the parameters value.
+
+```csharp
+"{cityName}/{arrivalYear}-{arrivalMonth}-{arrivalDay}"
+```
+
+The above example uses `-` as the literal text to separate the parameter values and will match on the following `/City/London/2022-4-18`.
+
+## Catch-all parameters
+
+There will be occasions when you don't know how many segments the URL will consist of. An example would be when mapping URLs to database entries from a CMS. A [[Routing Templates|route template]] will need to match anything so that when the given endpoint is selected, it can look up the URL in the database and grab what it needs.
+
+To declare a catch all parameter, prefix the name with one or two asterisks:
+
+* `{* cityName}`
+* `{** cityName}`
+
+Catch alls will match everything from the parameter position to the end of the URL, so make it the last parameter. The difference between one or two asterisks is as follows:
+
+* One asterisk with URL-encode path separators as `%2F`. Example: `/City/London/2022/4/18` becomes `/City%2fLondon%2F2022%2F4%2F18`
+* Two asterisks the encoding is decoded, _round tripped_, to include literal path separators: `/City/London/2022/4/18`
