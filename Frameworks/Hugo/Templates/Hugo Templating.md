@@ -1,0 +1,1 @@
+Hugo uses Go’s `html/template` and `text/template` libraries as the basis for the templating.
